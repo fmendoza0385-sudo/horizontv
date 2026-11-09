@@ -1,0 +1,95 @@
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/latam.epg.xml.gz"
+#EXTINF:-1 tvg-id="CaracolTV.co" tvg-name="Caracol TV" group-title="Nacionales",001 - Caracol TV
+http://181.78.197.59:8000/play/a09p/index.m3u8
+#EXTINF:-1 tvg-id="RCN.co" tvg-name="RCN" group-title="Documentales y entretenimiento",002 - RCN
+http://181.118.156.46:8000/play/a060/index.m3u8
+#EXTINF:-1 tvg-id="Ecuavisa.ec" tvg-name="Ecuavisa" group-title="Nacionales",003 - Ecuavisa
+http://181.78.197.59:8000/play/a04e/index.m3u8
+#EXTINF:-1 tvg-id="13C.cl" tvg-name="13C" group-title="Nacionales",004 - 13C
+http://181.78.197.59:8000/play/a098/index.m3u8
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" group-title="Internacionales",005 - Telefe
+http://181.78.197.59:8000/play/a070/index.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us" tvg-name="Telemundo" group-title="Internacionales",006 - Telemundo
+http://181.78.197.59:8000/play/a08x/index.m3u8
+#EXTINF:-1 tvg-id="CNNEnEspanol.us" tvg-name="CNN en Español" group-title="Noticias",007 - CNN en Español
+http://181.78.197.59:8000/play/a08s/index.m3u8
+#EXTINF:-1 tvg-id="ESPN2.la" tvg-name="ESPN 2 HD" group-title="Deportes",008 - ESPN 2 HD
+http://181.78.197.59:8000/play/a080/index.m3u8
+#EXTINF:-1 tvg-id="ESPN3.la" tvg-name="ESPN 3 HD" group-title="Deportes",009 - ESPN 3 HD
+http://181.78.197.59:8000/play/a081/index.m3u8
+#EXTINF:-1 tvg-id="ESPN4.la" tvg-name="ESPN 4 HD" group-title="Deportes",010 - ESPN 4 HD
+http://181.78.197.59:8000/play/a07n/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.la" tvg-name="ESPN HD" group-title="Deportes",011 - ESPN HD
+http://181.78.197.59:8000/play/a07z/index.m3u8
+#EXTINF:-1 tvg-id="ESPN7.la" tvg-name="ESPN7" group-title="Deportes",012 - ESPN7
+http://181.118.156.46:8000/play/a04g/index.m3u8
+#EXTINF:-1 tvg-id="WinSports.co" tvg-name="Win Sports" group-title="Deportes",013 - Win Sports
+http://181.118.156.46:8000/play/a05w/index.m3u8
+#EXTINF:-1 tvg-id="AE.la" tvg-name="A&E HD" group-title="Películas y series",014 - A&E HD
+http://181.78.197.59:8000/play/a06v/index.m3u8
+#EXTINF:-1 tvg-id="AMC.la" tvg-name="AMC HD" group-title="Películas y series",015 - AMC HD
+http://181.78.197.59:8000/play/a06w/index.m3u8
+#EXTINF:-1 tvg-id="AXN.la" tvg-name="AXN HD" group-title="Películas y series",016 - AXN HD
+http://181.78.197.59:8000/play/a072/index.m3u8
+#EXTINF:-1 tvg-id="CineLatino.us" tvg-name="Cine Latino" group-title="Películas y series",017 - Cine Latino
+http://181.78.197.59:8000/play/a08g/index.m3u8
+#EXTINF:-1 tvg-id="Cinecanal.la" tvg-name="CINECANAL HD" group-title="Películas y series",018 - CINECANAL HD
+http://181.78.197.59:8000/play/a07r/index.m3u8
+#EXTINF:-1 tvg-id="Cinemax.la" tvg-name="Cinemax" group-title="Películas y series",019 - Cinemax
+http://181.78.197.59:8000/play/a08f/index.m3u8
+#EXTINF:-1 tvg-id="DistritoComedia.mx" tvg-name="Distrito Comedia" group-title="Películas y series",020 - Distrito Comedia
+http://181.78.197.59:8000/play/a0fc/index.m3u8
+#EXTINF:-1 tvg-id="FX.la" tvg-name="FX HD" group-title="Películas y series",021 - FX HD
+http://181.78.197.59:8000/play/a06y/index.m3u8
+#EXTINF:-1 tvg-id="HBOFamily.la" tvg-name="HBO Family HD" group-title="Películas y series",022 - HBO Family HD
+http://181.78.197.59:8000/play/a07g/index.m3u8
+#EXTINF:-1 tvg-id="HBO.la" tvg-name="HBO HD" group-title="Películas y series",023 - HBO HD
+http://181.78.197.59:8000/play/a07d/index.m3u8
+#EXTINF:-1 tvg-id="HBOPlus.la" tvg-name="HBO Plus HD" group-title="Películas y series",024 - HBO Plus HD
+http://181.78.197.59:8000/play/a07f/index.m3u8
+#EXTINF:-1 tvg-id="HBO2.la" tvg-name="HBO2 HD" group-title="Películas y series",025 - HBO2 HD
+http://181.78.197.59:8000/play/a07e/index.m3u8
+#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-name="Las Estrellas HD" group-title="Películas y series",026 - Las Estrellas HD
+http://181.78.197.59:8000/play/a09j/index.m3u8
+#EXTINF:-1 tvg-id="Sony.la" tvg-name="SONY HD" group-title="Películas y series",027 - SONY HD
+http://181.78.197.59:8000/play/a07q/index.m3u8
+#EXTINF:-1 tvg-id="Space.la" tvg-name="SPACE HD" group-title="Películas y series",028 - SPACE HD
+http://181.78.197.59:8000/play/a09e/index.m3u8
+#EXTINF:-1 tvg-id="StarChannel.la" tvg-name="STAR CHANNEL HD" group-title="Películas y series",029 - STAR CHANNEL HD
+http://181.78.197.59:8000/play/a07p/index.m3u8
+#EXTINF:-1 tvg-id="Tlnovelas.la" tvg-name="TLNovelas" group-title="Películas y series",030 - TLNovelas
+http://181.78.197.59:8000/play/a09k/index.m3u8
+#EXTINF:-1 tvg-id="TNT.la" tvg-name="TNT HD" group-title="Películas y series",031 - TNT HD
+http://181.78.197.59:8000/play/a07u/index.m3u8
+#EXTINF:-1 tvg-id="TNTSeries.la" tvg-name="TNT Series HD" group-title="Películas y series",032 - TNT Series HD
+http://181.78.197.59:8000/play/a085/index.m3u8
+#EXTINF:-1 tvg-id="UniversalTV.la" tvg-name="Universal TV" group-title="Películas y series",033 - Universal TV
+http://181.78.197.59:8000/play/a071/index.m3u8
+#EXTINF:-1 tvg-id="WarnerTV.la" tvg-name="WARNER HD" group-title="Películas y series",034 - WARNER HD
+http://181.78.197.59:8000/play/a07s/index.m3u8
+#EXTINF:-1 tvg-id="AnimalPlanet.la" tvg-name="Animal Planet HD" group-title="Documentales",035 - Animal Planet HD
+http://181.78.197.59:8000/play/a06u/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryChannel.la" tvg-name="Discovery Channel HD" group-title="Documentales",036 - Discovery Channel HD
+http://181.78.197.59:8000/play/a086/index.m3u8
+#EXTINF:-1 tvg-id="InvestigationDiscovery.la" tvg-name="Discovery ID HD" group-title="Documentales",037 - Discovery ID HD
+http://181.78.197.59:8000/play/a08a/index.m3u8
+#EXTINF:-1 tvg-id="HGTV.la" tvg-name="HGTV" group-title="Documentales",038 - HGTV
+http://181.118.156.46:8000/play/a05s/index.m3u8
+#EXTINF:-1 tvg-id="History.la" tvg-name="History HD" group-title="Documentales",039 - History HD
+http://181.78.197.59:8000/play/a07m/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryHomeAndHealth.la" tvg-name="Home & Health HD" group-title="Documentales",040 - Home & Health HD
+http://181.78.197.59:8000/play/a07w/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.la" tvg-name="Nat Geo HD" group-title="Documentales",041 - Nat Geo HD
+http://181.78.197.59:8000/play/a083/index.m3u8
+#EXTINF:-1 tvg-id="BabyTV.la" tvg-name="Baby TV" group-title="Infantiles",042 - Baby TV
+http://181.78.197.59:8000/play/a075/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-name="CARTOON NETWORK HD" group-title="Infantiles",043 - CARTOON NETWORK HD
+http://181.78.197.59:8000/play/a07c/index.m3u8
+#EXTINF:-1 tvg-id="Cartoonito.la" tvg-name="Cartoonito" group-title="Infantiles",044 - Cartoonito
+http://181.78.197.59:8000/play/a07j/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryKids.la" tvg-name="Discovery Kids HD" group-title="Infantiles",045 - Discovery Kids HD
+http://181.78.197.59:8000/play/a078/index.m3u8
+#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-name="Disney Junior" group-title="Infantiles",046 - Disney Junior
+http://181.78.197.59:8000/play/a07k/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MEMORIAS TOONS" group-title="Infantiles",047 - MEMORIAS TOONS
+http://181.118.156.46:8000/play/a069/index.m3u8

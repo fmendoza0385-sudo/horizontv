@@ -1,0 +1,382 @@
+{
+  "startup_channel": 1,
+  "epg_url": "https://iptv-org.github.io/epg/guides/latam.epg.xml.gz",
+  "channels": [
+    {
+      "raw_name": "Canal Caracol",
+      "name": "Caracol TV",
+      "tvg_id": "CaracolTV.co",
+      "url": "http://181.78.197.59:8000/play/a09p/index.m3u8",
+      "category": "Nacionales",
+      "number": 1
+    },
+    {
+      "raw_name": "RCN HD",
+      "name": "RCN",
+      "tvg_id": "RCN.co",
+      "url": "http://181.118.156.46:8000/play/a060/index.m3u8",
+      "category": "Documentales y entretenimiento",
+      "number": 2
+    },
+    {
+      "raw_name": "Ecuavisa",
+      "name": "Ecuavisa",
+      "tvg_id": "Ecuavisa.ec",
+      "url": "http://181.78.197.59:8000/play/a04e/index.m3u8",
+      "category": "Nacionales",
+      "number": 3
+    },
+    {
+      "raw_name": "13 C",
+      "name": "13C",
+      "tvg_id": "13C.cl",
+      "url": "http://181.78.197.59:8000/play/a098/index.m3u8",
+      "category": "Nacionales",
+      "number": 4
+    },
+    {
+      "raw_name": "Telefe",
+      "name": "Telefe",
+      "tvg_id": "Telefe.ar",
+      "url": "http://181.78.197.59:8000/play/a070/index.m3u8",
+      "category": "Internacionales",
+      "number": 5
+    },
+    {
+      "raw_name": "Telemundo",
+      "name": "Telemundo",
+      "tvg_id": "Telemundo.us",
+      "url": "http://181.78.197.59:8000/play/a08x/index.m3u8",
+      "category": "Internacionales",
+      "number": 6
+    },
+    {
+      "raw_name": "CNNE",
+      "name": "CNN en Español",
+      "tvg_id": "CNNEnEspanol.us",
+      "url": "http://181.78.197.59:8000/play/a08s/index.m3u8",
+      "category": "Noticias",
+      "number": 7
+    },
+    {
+      "raw_name": "ESPN 2 HD",
+      "name": "ESPN 2 HD",
+      "tvg_id": "ESPN2.la",
+      "url": "http://181.78.197.59:8000/play/a080/index.m3u8",
+      "category": "Deportes",
+      "number": 8
+    },
+    {
+      "raw_name": "ESPN 3 HD",
+      "name": "ESPN 3 HD",
+      "tvg_id": "ESPN3.la",
+      "url": "http://181.78.197.59:8000/play/a081/index.m3u8",
+      "category": "Deportes",
+      "number": 9
+    },
+    {
+      "raw_name": "ESPN  4 HD",
+      "name": "ESPN 4 HD",
+      "tvg_id": "ESPN4.la",
+      "url": "http://181.78.197.59:8000/play/a07n/index.m3u8",
+      "category": "Deportes",
+      "number": 10
+    },
+    {
+      "raw_name": "ESPN HD",
+      "name": "ESPN HD",
+      "tvg_id": "ESPN.la",
+      "url": "http://181.78.197.59:8000/play/a07z/index.m3u8",
+      "category": "Deportes",
+      "number": 11
+    },
+    {
+      "raw_name": "ESPN7",
+      "name": "ESPN7",
+      "tvg_id": "ESPN7.la",
+      "url": "http://181.118.156.46:8000/play/a04g/index.m3u8",
+      "category": "Deportes",
+      "number": 12
+    },
+    {
+      "raw_name": "WIN_H264",
+      "name": "Win Sports",
+      "tvg_id": "WinSports.co",
+      "url": "http://181.118.156.46:8000/play/a05w/index.m3u8",
+      "category": "Deportes",
+      "number": 13
+    },
+    {
+      "raw_name": "A&E HD",
+      "name": "A&E HD",
+      "tvg_id": "AE.la",
+      "url": "http://181.78.197.59:8000/play/a06v/index.m3u8",
+      "category": "Películas y series",
+      "number": 14
+    },
+    {
+      "raw_name": "AMC HD",
+      "name": "AMC HD",
+      "tvg_id": "AMC.la",
+      "url": "http://181.78.197.59:8000/play/a06w/index.m3u8",
+      "category": "Películas y series",
+      "number": 15
+    },
+    {
+      "raw_name": "AXN HD",
+      "name": "AXN HD",
+      "tvg_id": "AXN.la",
+      "url": "http://181.78.197.59:8000/play/a072/index.m3u8",
+      "category": "Películas y series",
+      "number": 16
+    },
+    {
+      "raw_name": "Cine Latino",
+      "name": "Cine Latino",
+      "tvg_id": "CineLatino.us",
+      "url": "http://181.78.197.59:8000/play/a08g/index.m3u8",
+      "category": "Películas y series",
+      "number": 17
+    },
+    {
+      "raw_name": "CINECANAL HD",
+      "name": "CINECANAL HD",
+      "tvg_id": "Cinecanal.la",
+      "url": "http://181.78.197.59:8000/play/a07r/index.m3u8",
+      "category": "Películas y series",
+      "number": 18
+    },
+    {
+      "raw_name": "CineMax",
+      "name": "Cinemax",
+      "tvg_id": "Cinemax.la",
+      "url": "http://181.78.197.59:8000/play/a08f/index.m3u8",
+      "category": "Películas y series",
+      "number": 19
+    },
+    {
+      "raw_name": "Distrito Comedia",
+      "name": "Distrito Comedia",
+      "tvg_id": "DistritoComedia.mx",
+      "url": "http://181.78.197.59:8000/play/a0fc/index.m3u8",
+      "category": "Películas y series",
+      "number": 20
+    },
+    {
+      "raw_name": "FX HD",
+      "name": "FX HD",
+      "tvg_id": "FX.la",
+      "url": "http://181.78.197.59:8000/play/a06y/index.m3u8",
+      "category": "Películas y series",
+      "number": 21
+    },
+    {
+      "raw_name": "HBO Family HD",
+      "name": "HBO Family HD",
+      "tvg_id": "HBOFamily.la",
+      "url": "http://181.78.197.59:8000/play/a07g/index.m3u8",
+      "category": "Películas y series",
+      "number": 22
+    },
+    {
+      "raw_name": "HBO HD",
+      "name": "HBO HD",
+      "tvg_id": "HBO.la",
+      "url": "http://181.78.197.59:8000/play/a07d/index.m3u8",
+      "category": "Películas y series",
+      "number": 23
+    },
+    {
+      "raw_name": "HBO Plus HD",
+      "name": "HBO Plus HD",
+      "tvg_id": "HBOPlus.la",
+      "url": "http://181.78.197.59:8000/play/a07f/index.m3u8",
+      "category": "Películas y series",
+      "number": 24
+    },
+    {
+      "raw_name": "HBO2 HD",
+      "name": "HBO2 HD",
+      "tvg_id": "HBO2.la",
+      "url": "http://181.78.197.59:8000/play/a07e/index.m3u8",
+      "category": "Películas y series",
+      "number": 25
+    },
+    {
+      "raw_name": "Las Estrellas HD",
+      "name": "Las Estrellas HD",
+      "tvg_id": "LasEstrellas.mx",
+      "url": "http://181.78.197.59:8000/play/a09j/index.m3u8",
+      "category": "Películas y series",
+      "number": 26
+    },
+    {
+      "raw_name": "SONY HD",
+      "name": "SONY HD",
+      "tvg_id": "Sony.la",
+      "url": "http://181.78.197.59:8000/play/a07q/index.m3u8",
+      "category": "Películas y series",
+      "number": 27
+    },
+    {
+      "raw_name": "SPACE HD",
+      "name": "SPACE HD",
+      "tvg_id": "Space.la",
+      "url": "http://181.78.197.59:8000/play/a09e/index.m3u8",
+      "category": "Películas y series",
+      "number": 28
+    },
+    {
+      "raw_name": "STAR CHANNEL HD",
+      "name": "STAR CHANNEL HD",
+      "tvg_id": "StarChannel.la",
+      "url": "http://181.78.197.59:8000/play/a07p/index.m3u8",
+      "category": "Películas y series",
+      "number": 29
+    },
+    {
+      "raw_name": "Tlnovelas",
+      "name": "TLNovelas",
+      "tvg_id": "Tlnovelas.la",
+      "url": "http://181.78.197.59:8000/play/a09k/index.m3u8",
+      "category": "Películas y series",
+      "number": 30
+    },
+    {
+      "raw_name": "TNT HD",
+      "name": "TNT HD",
+      "tvg_id": "TNT.la",
+      "url": "http://181.78.197.59:8000/play/a07u/index.m3u8",
+      "category": "Películas y series",
+      "number": 31
+    },
+    {
+      "raw_name": "TNT Series HD",
+      "name": "TNT Series HD",
+      "tvg_id": "TNTSeries.la",
+      "url": "http://181.78.197.59:8000/play/a085/index.m3u8",
+      "category": "Películas y series",
+      "number": 32
+    },
+    {
+      "raw_name": "Universal",
+      "name": "Universal TV",
+      "tvg_id": "UniversalTV.la",
+      "url": "http://181.78.197.59:8000/play/a071/index.m3u8",
+      "category": "Películas y series",
+      "number": 33
+    },
+    {
+      "raw_name": "WARNER HD",
+      "name": "WARNER HD",
+      "tvg_id": "WarnerTV.la",
+      "url": "http://181.78.197.59:8000/play/a07s/index.m3u8",
+      "category": "Películas y series",
+      "number": 34
+    },
+    {
+      "raw_name": "Animal Planet HD",
+      "name": "Animal Planet HD",
+      "tvg_id": "AnimalPlanet.la",
+      "url": "http://181.78.197.59:8000/play/a06u/index.m3u8",
+      "category": "Documentales",
+      "number": 35
+    },
+    {
+      "raw_name": "Discovery Channel HD",
+      "name": "Discovery Channel HD",
+      "tvg_id": "DiscoveryChannel.la",
+      "url": "http://181.78.197.59:8000/play/a086/index.m3u8",
+      "category": "Documentales",
+      "number": 36
+    },
+    {
+      "raw_name": "Discovery ID HD",
+      "name": "Discovery ID HD",
+      "tvg_id": "InvestigationDiscovery.la",
+      "url": "http://181.78.197.59:8000/play/a08a/index.m3u8",
+      "category": "Documentales",
+      "number": 37
+    },
+    {
+      "raw_name": "DISCOVERY_HGTV",
+      "name": "HGTV",
+      "tvg_id": "HGTV.la",
+      "url": "http://181.118.156.46:8000/play/a05s/index.m3u8",
+      "category": "Documentales",
+      "number": 38
+    },
+    {
+      "raw_name": "History HD",
+      "name": "History HD",
+      "tvg_id": "History.la",
+      "url": "http://181.78.197.59:8000/play/a07m/index.m3u8",
+      "category": "Documentales",
+      "number": 39
+    },
+    {
+      "raw_name": "Home & Health HD",
+      "name": "Home & Health HD",
+      "tvg_id": "DiscoveryHomeAndHealth.la",
+      "url": "http://181.78.197.59:8000/play/a07w/index.m3u8",
+      "category": "Documentales",
+      "number": 40
+    },
+    {
+      "raw_name": "Nat Geo HD",
+      "name": "Nat Geo HD",
+      "tvg_id": "NationalGeographic.la",
+      "url": "http://181.78.197.59:8000/play/a083/index.m3u8",
+      "category": "Documentales",
+      "number": 41
+    },
+    {
+      "raw_name": "Baby TV",
+      "name": "Baby TV",
+      "tvg_id": "BabyTV.la",
+      "url": "http://181.78.197.59:8000/play/a075/index.m3u8",
+      "category": "Infantiles",
+      "number": 42
+    },
+    {
+      "raw_name": "CARTOON NETWORK HD",
+      "name": "CARTOON NETWORK HD",
+      "tvg_id": "CartoonNetwork.la",
+      "url": "http://181.78.197.59:8000/play/a07c/index.m3u8",
+      "category": "Infantiles",
+      "number": 43
+    },
+    {
+      "raw_name": "Cartoonito",
+      "name": "Cartoonito",
+      "tvg_id": "Cartoonito.la",
+      "url": "http://181.78.197.59:8000/play/a07j/index.m3u8",
+      "category": "Infantiles",
+      "number": 44
+    },
+    {
+      "raw_name": "Discovery Kids HD",
+      "name": "Discovery Kids HD",
+      "tvg_id": "DiscoveryKids.la",
+      "url": "http://181.78.197.59:8000/play/a078/index.m3u8",
+      "category": "Infantiles",
+      "number": 45
+    },
+    {
+      "raw_name": "Disney JR",
+      "name": "Disney Junior",
+      "tvg_id": "DisneyJunior.la",
+      "url": "http://181.78.197.59:8000/play/a07k/index.m3u8",
+      "category": "Infantiles",
+      "number": 46
+    },
+    {
+      "raw_name": "MEMORIAS TOONS",
+      "name": "MEMORIAS TOONS",
+      "tvg_id": "",
+      "url": "http://181.118.156.46:8000/play/a069/index.m3u8",
+      "category": "Infantiles",
+      "number": 47
+    }
+  ]
+}
