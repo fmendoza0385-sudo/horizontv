@@ -7,33 +7,51 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   build:
+    name: Construir APK Android
     runs-on: ubuntu-latest
 
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
-      - name: Configurar Java
+      - name: Configurar Java 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
 
-      - name: Configurar Gradle
+      - name: Configurar Gradle 8.9
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
 
       - name: Configurar Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools'
+
+      - name: Aceptar licencias Android
+        run: yes | sdkmanager --licenses || true
+
+      - name: Verificar estructura
+        run: |
+          echo "Contenido del proyecto:"
+          ls -la HorizonTV
+          echo "Archivos Gradle:"
+          find HorizonTV -maxdepth 2 -type f
 
       - name: Compilar HorizonTV
-        run: gradle -p HorizonTV assembleDebug
+        run: gradle -p HorizonTV assembleDebug --stacktrace
 
-      - name: Guardar APK
+      - name: Publicar APK
         uses: actions/upload-artifact@v4
         with:
           name: HorizonTV-APK
           path: HorizonTV/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+          retention-days: 7
