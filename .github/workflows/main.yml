@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+      - master
 
 permissions:
   contents: read
@@ -38,15 +39,21 @@ jobs:
       - name: Aceptar licencias Android
         run: yes | sdkmanager --licenses || true
 
-      - name: Verificar estructura
+      - name: Verificar estructura del proyecto
+        shell: bash
         run: |
-          echo "Contenido del proyecto:"
+          set -e
+          echo "Contenido de la raíz del repositorio:"
+          ls -la
+          echo "Contenido de HorizonTV:"
           ls -la HorizonTV
-          echo "Archivos Gradle:"
-          find HorizonTV -maxdepth 2 -type f
+          test -f HorizonTV/settings.gradle.kts
+          test -f HorizonTV/build.gradle.kts
+          test -f HorizonTV/app/build.gradle.kts
+          echo "Estructura Android encontrada correctamente."
 
       - name: Compilar HorizonTV
-        run: gradle -p HorizonTV assembleDebug --stacktrace
+        run: gradle -p HorizonTV --no-daemon clean assembleDebug --stacktrace
 
       - name: Publicar APK
         uses: actions/upload-artifact@v4
